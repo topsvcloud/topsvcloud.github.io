@@ -15,7 +15,7 @@
           action="https://formspree.io/{% if site.formspree_form_path %}{{ site.formspree_form_path }}{% else %}{{ site.email }}{% endif %}"
           novalidate="novalidate" method="POST">
           <!--name="sentMessage"-->
-          <div class="row">
+          <!-- <div class="row">
             <div class="col-md-6">
               <div class="form-group">
                 <input name="name" class="form-control" id="name" type="text"
@@ -52,7 +52,7 @@
               <div id="success"></div>
               <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase"
                 type="submit">{{ site.data.sitetext[site.locale].contact.submit | default: "Send Message" }}</button>
-            </div>
+            </div> -->
             <input type="text" name="_gotcha" style="display:none">
             <input type="hidden" name="_next" value="#" />
           </div>
