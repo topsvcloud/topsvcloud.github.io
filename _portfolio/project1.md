@@ -1,19 +1,59 @@
 ---
-title: 滕王阁
-subtitle: 滕王高阁临江渚
-image: /assets/img/portfolio/05-thumbnail.jpg #https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/01-full.jpg
+title: 冠服云助力全球某知名零售企业实现数字化转型
+subtitle:  
+image: /assets/img/images/012.jpg #https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/01-full.jpg
 alt: Shirts on a hanger
 
 caption:
-  title: 滕王阁
-  subtitle: 滕王高阁临江渚
-  thumbnail: /assets/img/portfolio/05-thumbnail.jpg #https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/01-thumbnail.jpg
+  title: 助力全球某知名零售企业实现数字化转型
+  subtitle:  
+  thumbnail: /assets/img/images/006.jpg #https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/01-thumbnail.jpg
 ---
 
-Use this area to describe your project. **Markdown** supported. This entry (project1.md) uses links for the image sources. All other projects in the portfolio use local images. Both work just fine! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+### **客户背景**<br>
+客户是全球拥有一万余家店铺的德国零售企业，该企业拥有百年历史，是全球日常零售行业佼佼者，以超值的价格为消费者提供优质的自营产品，并创造了更好的购物体验。在2017年正式进入中国，秉承“亲选为你”的理念，让中国消费者每天都能享受到最好的进口产品。
+<br>
+### **项目需求**<br>
+在今天的商业社会中，购买力越来越多的取决于消费的意愿。很多公司认识到数字化体验已经成为公司和消费者之间必要的沟通桥梁。了解消费者行为和体验成为能否成功实施商务策略的关键因素。客户公司作为全球日常零售行业的佼佼者，已经成功的将消费者数字化体验作为关键的一环整合到其整体的商业策略中。
+<br>
+良好的战略规划与员工的努力促进了客户公司业务的飞速增长，为了更好的支持业务的发展，并积极响应国家大力倡导的“互联网+”业务形态，开始引入公有云服务，以解决企业在业务快速扩张中所遇到的一些挑战。具体包括：
+<br>
+• 市场地域广泛，门店、员工、顾客遍布全国，需要让业务人员与合作伙伴高效协作，并提高顾客高速网络访问体验；<br>
+• 建立统一调配体系，节约IT资源；<br>
+• 保障数据的可靠性与安全性。符合中国本土对于隐私保护与信息管理的要求，并为渠道伙伴和顾客创造安全可靠的营销与销售网络。<br>
+<br>
+### **冠服云解决方案**<br>
+针对客户的IT资源现状和业务诉求，在“统一规划、集中管理、业务驱动、架构牵引、完善标准、统一规范” 的方案设计原则下，冠服云提出了IT资源整合和原厂采购、系统搭建和部署、系统运行和调试以及智能化运营方案，采用“性能+成本”完美结合的云计算技术作为平台，利用大数据、人工智能等最前沿技术为客户打造全新的企业云平台系统。并提供跨平台跨技术的7x24小时安心云服务。
+<br>
+**公有云平台建设**<br>
+通过Windows Azure公有云平台，采用微软全球数据中心的储存、计算能力和网络基础服务，优化配置IT资源，将整个IT资源进行整合，提升平台访问效率，降低企业IT成本。
+<br>
+**安全可靠的数据库**<br>
+采用业界领先的SQL Server数据库，利用SQL Server消除数据移动并提高数据库性能，通过直接对运营数据进行实时、混合事务和分析处理 (HTAP) 缩短获得见解所用的时间。依靠 SQL Server 数据库性能来处理最严苛的工作负载。
+<br>
+**存储、备份和恢复**<br>
+借助于 Azure ExpressRoute在 Azure 数据中心与本地环境中的基础架构之间创建专有连接，可靠性更高、速度更快、延迟时间更短且安全性更高，在定期数据迁移，业务连续性复制、灾难恢复中得到数据安全保障。
+<br>
+### **客户收益**<br>
+**管理便捷高效 灵活应对业务需求**<br>
+借助虚拟机、存储等服务，客户可根据用户访问量灵活调整资源配置，更高效管理IT资源，有效控制成本，灵活应对业务需求，助力零售超市在全国范围内快速扩张。
+<br>
+**保障数据安全 提升用户体验**<br>
+借助基于RBAC的访问控制，将开发商/运维团队的权限清楚划分，避免误操作，通过第三方网络安全产品，将业务安全隔离，保障系统稳定运行，帐户信息多重加密，有效的DDOS及容灾备份确保了平台交易数据、以及企业内部数据安全。
+<br>
+**轻装上阵 专注核心业务**<br>
+“互联网+”下，快消、零售行业在电商平台上搭建自己的旗舰店的同时也会自建电商网站，在微软Azure上搭建自有电商，能够保证系统的快速扩展，良好的带宽资源也能保证电商平台稳定的接入。可以节省大量的人力、物力，企业可以轻装上阵，专注于自身业务的发展。
+<br>
+冠服云设计的一站式IT解决方案，完成了包括稳健且安全的IT基础平台、电商平台、大数据分析平台，智能化运营平台的整体规划与建设，为客户打造全新的企业智能云平台系统；同时，借助冠服云广泛的厂商合作关系，得到原厂级的设备和技术支持；此外，冠服云运维服务团队为客户提供高效、稳定、长期的运维服务，满足客户对于后期系统运维的全方位需求。<br>
+
+### **参与厂商:**<br>
+微软（Microsoft）<br>
+相关方案:<br>
+冠服云网络及数据安全解决方案
+
 
 {:.list-inline}
 
-- Date: January 2017
+<!-- - Date: January 2022
 - Client: Threads
-- Category: Illustration
+- Category: Illustration -->

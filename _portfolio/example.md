@@ -1,21 +1,63 @@
 ---
 caption: #what displays in the portfolio grid:
-  title: 黄鹤楼
-  subtitle: 烟花三月下扬州
-  thumbnail: /assets/img/portfolio/04-thumbnail.jpg #https://place-hold.it/400x300
+  title: 保险行业数据备份案例
+  subtitle: 
+  thumbnail: /assets/img/images/005.jpg #https://place-hold.it/400x300
   
 #what displays when the item is clicked:
-title: 黄鹤楼
-subtitle: 烟花三月下扬州
-image: /assets/img/portfolio/04-thumbnail.jpg
+title: 冠服云在保险行业数据备份案例
+subtitle: 
+image: /assets/img/images/011.jpg
 alt: image alt text
 
 ---
-故人西辞黄鹤楼，烟花三月下扬州。  
-孤帆远影碧空尽，唯见长江天际流。  
+### **客户背景:**<br>
+客户企业是一家全球知名的保险行业百年老字号，是领先的保险及金融服务提供商，为遍布全球数以千万计的个人和企业客户提供服务。90年代进入中国后，为全国各地超过二十多个城市的消费者提供人寿、健康、意外及储蓄型保险产品等保险服务。
+<br>
+### **项目需求:**<br>
+作为一个发展迅速的大型企业，客户近年来在办公区、CallCenter等发展都是十分显著的，北京原有机房不能承载企业过快的发展。鉴于现状和异地容灾规划，客户将主机房迁移到上海，原有机房作为容灾机房使用。
+<br>
+上海机房新搭建了10GB的万兆网络，以供大数据传输和备份使用。采用Veritas NetBackup备份软件结合EMC DataDomain存储的备份方案，对100余虚拟机和10余台物理机进行备份。上海到北京的数据由专线连接和传输，通过EMC DataDomain同步复制功能，自动将备份数据复制到北京存储。
+<br>
+**客户对备份系统的需求:**<br>
+👉🏻异构环境的数据保护，可以在异构操作系统、应用程序、管理程序以及磁盘和磁带架构上实现数据保护功能；<br>
+👉🏻基于源和目标的集成式重复数据删除功能；<br>
+👉🏻针对虚拟环境且屡获殊荣的全面数据保护功能；<br>
+👉🏻跨域的高级监控和报告功能；<br>
+👉🏻适用于全球环境的更快灾难恢复；<br>
+👉🏻可以在源位置、目标位置或重复数据删除硬件设备上部署本地集成式重复数据删除功能，降低成本和复杂性；<br>
+👉🏻可以通过与管理程序的深入集成提高虚拟环境的备份效率和恢复速度；<br>
+👉🏻可以通过单一控制台管理更多对象，如物理和虚拟服务器、备份和恢复技术以及多个备份产品；<br>
+👉🏻可以快速轻松地恢复重要的应用程序和备份数据；<br>
+👉🏻全面的数据保护，提供了灵活的加密技术，可以最大程度保护传输中的或介质上的数据。<br>
+<br>
+**需要备份系统支持：**<br>
+👉🏻兼容IBM P小型机、PC 服务器；<br>
+👉🏻兼容刀片服务器；<br>
+👉🏻兼容EMC DataDomain 670/610 虚拟磁带库；<br>
+👉🏻兼容EMC Boost功能；<br>
+👉🏻兼容AIX、红帽Linux、Windows、VMvare等操作系统；<br>
+👉🏻兼容博科博科交换机、IBM 光纤交换机。<br>
+<br>
+### **冠服云解决方案：**<br>
+冠服云技术团队长期帮助客户维护备份系统，并逐渐统一整合了客户的两套备份系统。对于客户的现状和需求，冠服云结合10GB万兆网络的优势和性能，提出了新的备份方案。
+<br>
+针对客户已有的虚拟机，使用Veritas Netbackup备份软件进行备份，以保障虚拟机的数据和VMDK磁盘信息。推荐客户将主备份管理台独立安装，有利于备份信息（Catalog）的保护和远程管理。
+<br>
+采用一台Redhat Linux平台的Netbackup Master Server作为主备份服务器管理全部备份环境，并执行部分物理机的备份；两台Windows 2008平台的Netbackup Media Server作为主次级备份服务器备份全部的虚拟机。EMC DataDomain 大型磁盘存储，作为备份存储，存储Netbackup备份出的数据，启用重复数据删除功能。所有备份都通过10GB万兆网络传输，保障备份速度，减少生产TCP/IP网络压力。
+<br>
+上海所有VMware虚拟机根据应用和数据量分为九组，每组大约5~20台虚拟机不等，小组（5~10台），每两组同时运行，大组（10台以上）同时只一组备份运行。
+<br>
+备份虚拟机基本通过万兆网络备份，备份物理机部分通过光纤备份，部分通过千兆网络备份。<br>
+### **客户收益:**<br>
+凭借冠服云多年来与众多 IT 厂商的合作，服务超过20000家的企业级客户，积累了丰富的IT系统实践经验。在此基础上，冠服云的技术团队融合多厂商、不同产品和技术的独特优势，针对该保险行业客户的具体业务需求和实际的IT现状，提供了完善的备份解决方案。<br>
+### **参与厂商:**<br>
+Veritas Technologies， VMware， 红帽（redhat）， EMC<br>
+### **相关方案:**<br>
+冠服云网络及数据安全解决方案
 
 
 {:.list-inline} 
-- Date: 2022-12-13
-- Client: Cisco
-- Category: NETWORK
+<!-- - Date: October 2021
+- Client: Insurance
+- Category: Veritas NetBackup -->
