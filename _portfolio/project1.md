@@ -7,7 +7,7 @@ alt: Shirts on a hanger
 caption:
   title: 助力全球某知名零售企业实现数字化转型
   subtitle:  
-  thumbnail: /assets/img/images/006.jpg #https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/01-thumbnail.jpg
+  thumbnail: /assets/img/images/image008.jpg #https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/01-thumbnail.jpg
 ---
 
 ### **客户背景**<br>

@@ -7,7 +7,7 @@ alt: Keep Exploring
 caption:
   title: 为某城投机构搭建超融合业务平台案例
   subtitle:  
-  thumbnail: /assets/img/images/007.jpg #https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/02-thumbnail.jpg
+  thumbnail: /assets/img/images/image009.jpg #https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/02-thumbnail.jpg
 ---
 
 ### **客户背景**<br>

@@ -16,9 +16,9 @@ remote-theme: jekyll-agency
 url    : "https://topsvcloud.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
-title      : 冠服云：一站式ICT基础设施运营管理服务商
-email      : cs@it188.com #this is also the email contact forms will go to
-description: "冠服云：一站式ICT基础设施运营管理服务商"
+title      : 管理服务云
+email      : m001@mspyun.com #this is also the email contact forms will go to
+description: "管理服务云"
 author     : pangxx
 logo:     #optional, defaults to site title
   path: assets\img\clients\topsvc3.png

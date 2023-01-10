@@ -15,10 +15,10 @@ en: &DEFAULT_EN
       section: services
     - title: "成功案例"
       section: portfolio
-    - title: "关于我们"
-      section: about
     - title: "产品中心"
       section: team
+    - title: "关于我们"
+      section: about
     - title: "联系我们"
       section: contact
     # - title: "Theme Source"

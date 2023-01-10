@@ -2,7 +2,7 @@
 caption: #what displays in the portfolio grid:
   title: 保险行业数据备份案例
   subtitle: 
-  thumbnail: /assets/img/images/005.jpg #https://place-hold.it/400x300
+  thumbnail: /assets/img/images/image007.jpg #https://place-hold.it/400x300
   
 #what displays when the item is clicked:
 title: 冠服云在保险行业数据备份案例

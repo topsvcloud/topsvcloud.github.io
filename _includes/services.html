@@ -15,13 +15,15 @@
       <div class="row text-center">
 	  {% for service in site.data.sitetext[site.locale].services.list %}
         <div class="col-md-4">
-          <span class="fa-stack fa-4x">
+          <!-- <span class="fa-stack fa-4x"> -->
             <!-- <i class="fas fa-circle fa-stack-2x text-primary"></i> -->
             <!-- <i class="{{ service.icon | default: "fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i> -->
-            <img class="img-fluid d-block mx-auto" src="{{ service.icon }}" style="max-height: {{ site.data.sitetext.service.max-height | default: "300px" }}">
-          </span>
+            <img class="img-fluid d-block mx-auto" src="{{ service.icon }}" style="max-height: {{ site.data.sitetext.service.max-height | default: "450px" }}">
+          <!-- </span> -->
           <h4 class="service-heading">{{ service.title | markdownify }}</h4>
-          {% if service.desc %}<div class="text-muted">{{ service.desc | markdownify }}</div>{% endif %}
+          <!-- {% if service.desc %}<div class="text-muted">{{ service.desc | markdownify }}</div>{% endif %} -->
+          {% if service.desc %}<div class="text-muted text-left initImg containImg">{{ service.desc | markdownify }}</div>{% endif %}
+
         </div>
 	  {% endfor %}
       </div>
@@ -47,10 +49,10 @@
         <!-- <span class="fa-stack fa-4x"> -->
           <!-- <i class="fas fa-circle fa-stack-2x text-primary"></i> -->
           <!-- <i class="{{ service.icon | default: "fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i> -->
-          <img class="img-fluid d-block mx-auto" src="{{ service.icon }}" style="max-height: {{ site.data.sitetext.service.max-height | default: "300px" }}">
+          <img class="img-fluid d-block mx-auto" src="{{ service.icon }}" style="max-height: {{ site.data.sitetext.service.max-height | default: "450px" }}">
         <!-- </span> -->
         <h4 class="service-heading">{{ service.title | markdownify }}</h4>
-        {% if service.desc %}<div class="text-muted">{{ service.desc | markdownify }}</div>{% endif %}
+        {% if service.desc %}<div class="text-muted text-left">{{ service.desc | markdownify }}</div>{% endif %}
       </div>
   {% endfor %}
     </div>

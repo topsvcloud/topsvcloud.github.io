@@ -20,20 +20,20 @@ en: &DEFAULT_EN
     title: "技术服务"
     text: "Technical Services"
     section: services
-    max-height: 300px
+    max-height: 450px
     list:
       - title: "冠全服务"
         desc: "作为业内领先的IT服务供应商，冠服云不仅拥有一支具有丰富工程经验和高度职业精神，分布在全国各地的工程师队伍，而目拥有一整套严密的科学方法论以及高效的项目管理工具。冠服云充分理解IT系统建设在客户业务开展中的重要作用，始终坚持按计划，保质完成最艰难的工程任务。无论是建设一个全新的IT系统，还是升级、扩容原有的IT环境，从经典的IT基础架构平台，到时下流行的云平台、物联网环境，冠服云均以专业的服务态度、卓越的技术水平做好每一项工作。"
         # icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-        icon: assets/img/images/001.jpg
+        icon: assets/img/images/image001.jpg
       - title: "冠智服务"
         desc: "冠智服务是为您量身打造的“全方位”维保服务方案。该服务结合冠服云自主建立的网络服务平台，提供了原厂维保+“第三方维保”的统一接口平台，为您提供24*7响应、远程技术支持、备件先行服务、现场支持等丰富的服务选项。"
         # icon: fas fa-laptop
-        icon: assets/img/images/002.jpg
+        icon: assets/img/images/image002.jpg
       - title: "冠臻服务"
         desc: "利用系统科学的方法论和广泛同业对标数据，通过专业的服务交付团队，为客户提供从设备、机房、网络、等业务不同层级的检查、整理、评估、优化服务。帮助客户了解自身网络与设备的状态、优化网络性能和提高相关业务系统的整体运营效率与投资回报率。"
         # icon: fab fa-markdown
-        icon: assets/img/images/003.png
+        icon: assets/img/images/image003.jpg
 
   portfolio:
     title: "成功案例"
@@ -44,7 +44,7 @@ en: &DEFAULT_EN
   about:
     title: "关于我们"
     text: "about us"
-    body: "冠服云信息技术有限公司结合市场发展趋势及自身优势技术资源，为客户呈现IT Infra数字化转型四大核心技术方案：IT资源平台、信息安全、IT运营管理、数字化办公，从人员、流程、技术、资源四个方面为客户IT技术升级转型全面保驾护航！"
+    body: "冠服云信息技术有限公司结合市场发展趋势及自身优势技术资源，为客户呈现 IT Infra 数字化转型四大核心技术方案：IT资源平台、信息安全、IT运营管理、数字化办公，从人员、流程、技术、资源四个方面为客户IT技术升级转型全面保驾护航！"
     section: about
 
   # clients:
@@ -73,7 +73,8 @@ en: &DEFAULT_EN
     people:
       - name: "IT集成"
         role: "冠服云IT集成 服务专业可靠 <br/>冠服云科技以云计算、大数据、SDN引领创新，通过基础网络、信息安全、协作通信、智能运维等领域的专业技术，结合卓越的IT综合服务能力，为客户提供定制化的新IT解决方案与全生命周期的新IT服务."
-        image: assets/img/images/008.jpeg
+        # image: assets/img/images/008.jpg
+        image: assets/img/images/008.jpg
       - name: "IT维保"
         role: "冠服云设备维保 服务专业可靠<br/>针对全品牌服务器、小型机、存储、网络设备（交换机、路由器、 VPN、防火墙）提供企业级维保解决方案，降低运维成本，省心省力。"
         image: assets/img/images/009.jpg
@@ -81,9 +82,15 @@ en: &DEFAULT_EN
         role: "冠服云IT外包 服务专业可靠<br/>为企业客户提供涵盖桌面PC、服务器、网络等软硬件IT运维外包服务。 15年IT运维管理经验，300家合作企业，让办公更高效。"
         image: assets/img/images/010.jpg
 
+  about:
+    title: "关于我们"
+    text: "about us"
+    body: "冠服云信息技术有限公司结合市场发展趋势及自身优势技术资源，为客户呈现IT Infra数字化转型四大核心技术方案：IT资源平台、信息安全、IT运营管理、数字化办公，从人员、流程、技术、资源四个方面为客户IT技术升级转型全面保驾护航！"
+    section: about
+
   contact:
     title: "联系我们"
-    text: "上海冠服云信息技术有限公司 <br/>地址：上海市闵行区虹梅南路1755号1幢1层 <br/>邮箱地址：<br/>联系电话："
+    text: "上海冠服云信息技术有限公司 <br/>地址：上海市闵行区虹梅南路1755号1幢1层 <br/>邮箱地址：m001@mspyun.com<br/>"
     # section: contact
     # name: "Name*"
     # name-validation: "Please enter your name."
